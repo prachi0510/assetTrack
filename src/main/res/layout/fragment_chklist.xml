@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".lrvlist.chklist">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/border"
+        android:layout_marginStart="10dp"
+
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="10dp"
+        android:id="@+id/tab1">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+android:layout_gravity="center"
+            android:id="@+id/lin3">
+
+            <TextView
+
+                android:id="@+id/txt1"
+                android:layout_width="185dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+
+                android:background="@drawable/border1"
+                android:textSize="15dp"
+                android:text="Configuration"
+                />
+            <TextView
+
+                android:id="@+id/txt2"
+                android:layout_width="185dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+
+                android:background="@drawable/border1"
+
+                android:textSize="15dp"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+
+            android:id="@+id/lin4">
+
+            <TextView
+
+                android:id="@+id/txt3"
+                android:layout_width="185dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+
+                android:background="@drawable/border1"
+                android:text="Lead Vehicle (L):"
+                android:textSize="15dp"
+                />
+            <TextView
+
+                android:id="@+id/txt4"
+                android:layout_width="185dp"
+                android:layout_height="40dp"
+                android:background="@drawable/border1"
+                android:layout_gravity="center"
+
+                android:textSize="15dp"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+
+            android:id="@+id/lin5">
+
+            <TextView
+
+                android:id="@+id/txt5"
+                android:layout_width="185dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+
+                android:background="@drawable/border1"
+                android:text="Mid Vehicle (M):"
+                android:textSize="15dp"
+                />
+            <TextView
+
+                android:id="@+id/txt6"
+                android:layout_width="185dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+
+                android:background="@drawable/border1"
+
+                android:textSize="15dp"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+
+            android:id="@+id/lin6">
+
+            <TextView
+
+                android:id="@+id/txt7"
+                android:layout_width="185dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+
+                android:background="@drawable/border1"
+                android:text="Trail Vehicle (T):"
+                android:textSize="15dp"
+                />
+            <TextView
+
+                android:id="@+id/txt8"
+                android:layout_width="185dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+
+                android:background="@drawable/border1"
+
+                android:textSize="15dp"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+
+            android:id="@+id/lin7">
+
+            <TextView
+
+                android:id="@+id/txt9"
+                android:layout_width="185dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+
+                android:background="@drawable/border1"
+                android:text="Maintenance Supervisor:"
+                android:textSize="15dp"
+                />
+            <TextView
+
+                android:id="@+id/txt10"
+                android:layout_width="185dp"
+                android:layout_height="40dp"
+                android:background="@drawable/border1"
+                android:layout_gravity="center"
+
+                android:textSize="15dp"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+
+            android:id="@+id/l8">
+
+            <TextView
+
+                android:id="@+id/tx11"
+                android:layout_width="185dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+
+                android:background="@drawable/border1"
+                android:text="PDC Start Date:"
+                android:textSize="15dp"
+                />
+            <TextView
+
+                android:id="@+id/tx12"
+                android:layout_width="185dp"
+                android:layout_height="40dp"
+                android:background="@drawable/border1"
+                android:layout_gravity="center"
+
+                android:textSize="15dp"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+
+            android:id="@+id/lin8">
+
+            <TextView
+
+                android:id="@+id/txt11"
+                android:layout_width="185dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+
+                android:background="@drawable/border1"
+                android:text="PDC Completion Date:"
+                android:textSize="15dp"
+                />
+            <TextView
+
+                android:id="@+id/txt12"
+                android:layout_width="185dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+
+                android:background="@drawable/border1"
+
+                android:textSize="15dp"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+
+            android:id="@+id/lin9">
+
+            <TextView
+
+                android:id="@+id/txt13"
+                android:layout_width="185dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+
+                android:background="@drawable/border1"
+                android:text="PDC Status:"
+                android:textSize="15dp"
+                />
+            <TextView
+
+                android:id="@+id/txt14"
+                android:layout_width="185dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+
+                android:background="@drawable/border1"
+
+                android:textSize="15dp"
+                />
+
+        </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

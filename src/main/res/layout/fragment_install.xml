@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context=".Install">
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/green"
+        android:textColor="@color/white"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"/>
+
+    <TextView
+        android:id="@+id/ltextView"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="20dp"
+
+        android:textSize="20dp"
+        android:text="Location" />
+
+    <Spinner
+
+        android:id="@+id/slocation"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/dropdownlayer"
+
+        android:autofillHints="Choose Location"
+        android:spinnerMode="dropdown" />
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="170dp"
+    android:id="@+id/lin">
+
+    <TextView
+    android:id="@+id/stextView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    android:layout_marginStart="20dp"
+
+    android:textSize="20dp"
+    android:text="SubSystem" />
+    <Spinner
+        android:id="@+id/ssubsystem"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="@drawable/dropdownlayer"
+
+        android:spinnerMode="dropdown"
+        android:layout_marginStart="30dp" />
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="250dp"
+        android:id="@+id/lin1">
+    <TextView
+        android:id="@+id/ttextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+
+        android:text="Type"
+
+        android:textSize="20dp" />
+
+    <Spinner
+        android:id="@+id/sroom"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="90dp"
+        android:background="@drawable/dropdownlayer"
+        android:spinnerMode="dropdown"
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:orientation="vertical"
+        android:layout_marginTop="330dp"
+        android:id="@+id/lin2">
+
+    <TableLayout
+        android:id="@+id/table"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+
+        android:layout_marginEnd="0dp">
+    <TableRow android:id="@+id/tablerow">
+
+        <TextView
+            android:id="@+id/textview1"
+            android:layout_width="270px"
+            android:layout_height="100px"
+            android:gravity="center"
+            android:text="@string/dt"
+
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textview2"
+            android:layout_width="270px"
+            android:layout_height="100px"
+            android:gravity="center"
+            android:text="@string/st"
+
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/textview3"
+            android:layout_width="270px"
+            android:layout_height="100px"
+            android:gravity="center"
+            android:text="@string/Ast"
+
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/textview4"
+            android:layout_width="270px"
+            android:layout_height="100px"
+            android:gravity="center"
+            android:text="@string/status"
+
+            android:textStyle="bold"/>
+    </TableRow>
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_alignParentBottom="true"
+>
+
+
+
+    <TableLayout
+        android:id="@+id/table1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TableLayout>
+
+    </ScrollView>
+    </TableLayout>
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".PDC">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/green"
+        android:textColor="@color/white"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="80dp"
+        android:id="@+id/line2">
+
+        <TextView
+            android:id="@+id/configuration"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+
+
+            android:textSize="20dp"
+            android:text="Configuration:" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/sconf"
+            android:background="@drawable/dropdownlayer1"
+            android:spinnerMode="dropdown"
+
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="170dp">
+        <TextView
+            android:id="@+id/leadvehicle"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+
+            android:textSize="20dp"
+            android:text="Lead Vehicle (L):" />
+
+
+        <Spinner
+            android:id="@+id/sleadV"
+            android:layout_width="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_height="50dp"
+            android:background="@drawable/dropdownlayer1"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:spinnerMode="dropdown"
+            />
+        <TextView
+            android:id="@+id/trailvehicle"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="Trail Vehicle (T):"
+
+            android:textSize="20dp" />
+        <Spinner
+            android:id="@+id/strailv"
+            android:layout_width="match_parent"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/dropdownlayer1"
+            android:layout_height="50dp"
+            android:layout_marginEnd="20dp"
+            android:spinnerMode="dropdown"
+            android:layout_marginTop="10dp"
+            />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linear2"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:orientation="vertical"
+        android:layout_marginEnd="10dp"
+
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="170dp">
+
+        <TextView
+            android:id="@+id/leadvehicle3car"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="Lead Vehicle (L):"
+
+            android:textSize="20dp" />
+
+        <Spinner
+            android:layout_marginStart="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/sleadv3car"
+            android:background="@drawable/dropdownlayer1"
+            android:spinnerMode="dropdown"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            />
+
+        <TextView
+            android:id="@+id/midvehicle3car"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+
+            android:text="Mid Vehicle (M):"
+
+
+            android:textSize="20dp" />
+
+        <Spinner
+            android:id="@+id/smidv3car"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:spinnerMode="dropdown"
+            android:background="@drawable/dropdownlayer1"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:id="@+id/trailvehicle3car"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="Trail Vehicle (T):"
+
+            android:textSize="20dp" />
+
+        <Spinner
+            android:id="@+id/strailv3car"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:spinnerMode="dropdown"
+            android:background="@drawable/dropdownlayer1"
+            android:layout_marginTop="10dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="450dp"
+        android:id="@+id/ln1">
+        <TextView
+            android:id="@+id/ms"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="20dp"
+            android:text="Maintenance Supervisor"
+
+            android:textSize="20dp" />
+
+        <TextView
+        android:id="@+id/txt1"
+            android:layout_marginTop="5dp"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+
+            android:layout_marginStart="20dp"
+            android:textSize="20dp"
+        android:hint="Superviser Name" />
+        <TextView
+            android:id="@+id/pdcstart"
+            android:layout_marginTop="5dp"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="20dp"
+            android:text="PDC Start:"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/txt2"
+            android:textSize="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+
+            android:layout_marginStart="20dp"
+            android:hint="date" />
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:layout_marginTop="710dp"
+    android:id="@+id/ln2">
+
+    <Button
+    android:id="@+id/submit"
+    android:layout_width="100dp"
+    android:layout_height="wrap_content"
+    android:layout_alignParentStart="true"
+        android:width="100dp"
+    android:background="@drawable/shape"
+    android:backgroundTint="@color/Gradient"
+    android:onClick="this"
+    android:text="Submit"
+    tools:ignore="OnClick" />
+    <Button
+        android:id="@+id/b_reset"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:width="100dp"
+        android:background="@drawable/shape"
+        android:backgroundTint="@color/grey"
+        android:onClick="this"
+        android:text="Reset"
+        tools:ignore="OnClick" />
+</LinearLayout>
+
+</RelativeLayout>

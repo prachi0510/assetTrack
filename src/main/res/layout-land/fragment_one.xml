@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/frame2"
+    tools:context=".one">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/green"
+        android:textColor="@color/white"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"/>
+
+
+    <Button
+        android:id="@+id/pdc"
+        android:layout_width="400dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="250dp"
+        android:layout_marginBottom="100dp"
+        android:background="@android:drawable/dialog_holo_dark_frame"
+        android:backgroundTint="@color/Gradient"
+        android:gravity="center"
+
+
+        android:text="PRE DEPARTURE CHECK" />
+
+        <Button
+            android:id="@+id/install"
+            android:layout_width="400dp"
+            android:layout_height="70dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="250dp"
+            android:layout_marginTop="150dp"
+            android:layout_marginEnd="250dp"
+            android:layout_marginBottom="100dp"
+            android:background="@android:drawable/dialog_holo_dark_frame"
+            android:backgroundTint="@color/Gradient"
+            android:gravity="center"
+
+            android:text="On SIte Check" />
+
+
+</RelativeLayout>

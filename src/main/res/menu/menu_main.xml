@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="Pre Departure Check"
+        android:id="@+id/pdc1"
+        android:icon="@drawable/settings"/>
+    <item android:title="On Site Check"
+        android:id="@+id/OSC"
+        android:icon="@drawable/settings"/>
+    <item android:title="Settings"
+        android:id="@+id/setting"
+        android:icon="@drawable/settings"/>
+    <item android:title="Log Out"
+        android:id="@+id/logout"/>
+
+
+</menu>

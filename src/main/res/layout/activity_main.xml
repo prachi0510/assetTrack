@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/frame1"
+
+    tools:context=".MainActivity">
+
+       <RelativeLayout
+           android:id="@+id/rel1"
+           android:background="@color/green"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+        style="@style/Theme.LightdarkMode"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/shape1"
+       >
+
+        <TextView
+            android:id="@+id/header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="230dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="50dp"
+            android:width="500dp"
+            android:ems="10"
+            android:fontFamily="sans-serif-medium"
+            android:text="Login"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+
+            android:textColorHint="#040404"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/fpass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+          android:gravity="right"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="450dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="50dp"
+            android:textColor="#605E5E"
+            android:width="500dp"
+            android:ems="10"
+            android:fontFamily="sans-serif-medium"
+            android:text="Forgot password?"
+
+
+            android:textSize="15dp"
+          />
+
+        <Button
+            android:id="@+id/b_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="65dp"
+            android:layout_marginTop="500dp"
+            android:layout_marginEnd="65dp"
+            android:layout_marginBottom="100dp"
+            android:width="100dp"
+
+            android:textSize="20dp"
+            android:background="@drawable/shape"
+            android:backgroundTint="@color/Gradient"
+            android:onClick="this"
+            android:text="Login"
+            tools:ignore="OnClick" />
+
+        <EditText
+            android:id="@+id/Username"
+            android:layout_width="400dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="300dp"
+            android:layout_marginEnd="20dp"
+            android:drawableLeft="@drawable/user"
+            android:drawablePadding="20dp"
+            android:ems="10"
+            android:hint="Your email"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:background="@drawable/textline"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+            android:textSize="20dp" />
+
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="400dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="380dp"
+            android:layout_marginEnd="20dp"
+            android:textColor="@color/black"
+            android:drawableRight="@drawable/view"
+            android:drawableLeft="@drawable/password"
+            android:drawablePadding="20dp"
+            android:ems="10"
+            android:hint="Your password"
+            android:background="@drawable/textline"
+            android:textColorHint="@color/black"
+            android:inputType="textPassword"
+            android:paddingLeft="10dp"
+
+            android:textSize="20dp" />
+
+<!--        <de.hdodenhof.circleimageview.CircleImageView-->
+<!--            android:id="@+id/imageView3"-->
+<!--            android:layout_width="300dp"-->
+<!--            android:layout_height="190dp"-->
+<!--            android:layout_marginStart="100dp"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:layout_marginEnd="100dp"-->
+<!--            android:src="@drawable/logo2"-->
+
+<!--           />-->
+        <TextView
+            android:id="@+id/passf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="350dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginBottom="50dp"
+            android:width="500dp"
+            android:ems="10"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-medium"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="500dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="100dp"
+
+            android:layout_marginEnd="120dp"
+            android:background="@color/white"
+            android:src="@drawable/assynt_logo_sm" />
+
+
+
+    </RelativeLayout>
+       </RelativeLayout>
+
+
+
+</RelativeLayout>
